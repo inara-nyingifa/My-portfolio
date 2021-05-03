@@ -36,7 +36,7 @@ footer {
 	
 	padding-left: 3rem;
 	color: var(--clr-light);
-	padding-bottom: 10rem;
+	padding-bottom: 0;
 	padding-top: 0;
 }
 
@@ -56,6 +56,11 @@ footer {
 }
 .section__title{
 	text-decoration: underline;
+}
+
+.about-me__body {
+	max-width: 100%;
+	display: inline;
 }
 @media (min-width: 800px) {		/*changing style based on px size*/
 	:root {
