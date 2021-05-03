@@ -26,6 +26,7 @@
 	--bs: 0.25em/*to the right*/ 0.25em/* moves it down*/ 0.75em /*blur*/ rgba(0,0,0,.25),
 		0.125em 0.125em 0.25em rgba(0,0,0, 0.15);
 }
+
 footer {
 	background-color: pink;
 	max-width: 100%;
@@ -39,8 +40,19 @@ footer {
 .my-work {
 	background-color: var(--clr-dark);
 }
+#work div {
+	display: flex;
+	flex:50%
+	padding : 0 4 px;
+}
+#work img{
+	padding: 1rem;
+}
 .section__title, .my-work p {
 	color: var(--clr-light);
+}
+.section__title{
+	text-decoration: underline;
 }
 @media (min-width: 800px) {		/*changing style based on px size*/
 	:root {
