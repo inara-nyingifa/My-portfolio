@@ -31,18 +31,17 @@ footer {
 	max-width: 100%;
 	margin: 0;
 }
-footer h3,li{
+footer {
 	padding-bottom: 2rem;
-	padding-left: 2rem;
+	padding-left: 3rem;
 	color: white;
-	
-	
 }
-.portfolio__img {
-	display: inline;
+.my-work {
+	background-color: var(--clr-dark);
 }
-
-
+.section__title, .my-work p {
+	color: var(--clr-light);
+}
 @media (min-width: 800px) {		/*changing style based on px size*/
 	:root {
 		--fs-h1: 4.5rem;
@@ -102,8 +101,6 @@ h3 {font-size: var(--fs-h3);}
 .section__subtitle {
 	margin: 0;
 	font-size: var(--fs-h3);
-
-
 }
 
 .section__subtitle--intro,
@@ -192,8 +189,7 @@ header {
 	box-shadow: var(--bs);
 	max-width: 50%;
 	max-height: 20rem;
-	display:inline-block;
 }
 .about--me div {
-	display: flex;
+	display: inline-flex;
 }
