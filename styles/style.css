@@ -3,9 +3,10 @@
 *::after {
 	box-sizing: border-box;
 }
+
                                                  /*this changes how padding is calculated */
 
-												/*custom properties*/
+												
 :root {
 	--ff-primary:'Source Sans Pro', sans-serif;    /*ff= fontfamily*/
 	--ff-secondary:'Source Code Pro', monospace;
@@ -26,7 +27,7 @@
 		0.125em 0.125em 0.25em rgba(0,0,0, 0.15);
 }
 
-@media (min-width: 800px) {		/*changing font size based on window size*/
+@media (min-width: 800px) {		/*changing style based on px size*/
 	:root {
 		--fs-h1: 4.5rem;
 		--fs-h2: 3.75rem;
@@ -37,7 +38,7 @@
 /*general styles*/
 
 body {
-	background: var(--clr-light);			/*background color*/
+	background: var(--clr-light);			
 	color: var(--clr-dark);
 	margin: 0;
 	font-family: var(--fs-primary);
@@ -100,8 +101,16 @@ h3 {font-size: var(--fs-h3);}
 
 
 /*header*/
-nav {
-	display: none;
+.nav__item{
+	display: inline;
+}
+.nav__item a {
+	color: black;
+	padding: 4rem;
+	text-align: center;
+}
+header {
+	background-color:pink;
 }
 /*Intro section*/
 
