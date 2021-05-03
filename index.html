@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DevInara Portfolia Website</title>
+	<meta charset="UTF-8">
+	<meta name="vieport" content="width=devicve-width, intail-scale=1.0">
+	<link rel="stylesheet" 
+	href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<!--normalize is a css file that helps even outy the differences between the different browsers...website looks the same kin all browsers-->
+	<link rel="stylesheet"
+	 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+	 integrity= "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmXdxFgVK/Kvc=" crossorigin="anonymous" />
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!--bootstrap cdn-->
+	 <!--font awesome cdn-->
+
+	 <!-- sample used additional integrity href-->
+	 <link rel="stylesheet" type="text/css" href="style1.css">
+
+	 <!--Link to google fonts specifc fonts and colors-->
+	 <link href="https://fonts.googleapis.com/css?family+Source+Code+Pro:400,900|Source+Scans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="logo">
+		<img src="phone.jpg" alt="">  <!--              create logo             -->
+	</div>
+	<button class="nav-toggle" aria-label="toggle navigation">
+		<span class="hamburger"> </span>
+	</button>
+	<nav class="nav">
+		<ul class="nav__list">
+			<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+			<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+			<li class="nav__item"><a href="about" class="nav__link">About Me</a></li>
+			<li class="nav__item"><a href="work" class="nav__link">My Work</a></li>
+		</ul>
+	</nav>
+
+
+</header>
+
+<!-- intro section above-->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">
+			Hi, I am <strong> Inara Nyingifa</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">Front-end developer</p>
+		<img src="aa.jpg" alt="a picture of Inara smilling" class="intro__img"> 
+	</section>
+
+	<!-- services-->
+
+	<section class="my--services" id="services">
+		<h2 class="section__title section__title--services"> What I Do</h2>
+		<div class="services"> 
+
+			<div class="services">
+				<h3>Ecommerce</h3>
+				<p></p>
+			</div> <!-- close services-->
+
+			<div class="services">
+				<h3>Content Curator</h3>
+				<p> I create social media content relavent to targeted audiences based on established branding and style guidlines</p>
+			</div> <!-- close services-->
+
+			<div class="services">
+				<h3> Design + Development </h3>
+				<p>I aim to create responsive, adaptive and aesthetically pleasing designs with dynamic content viewable on all platforms . I work closley with clients to create the exact appearance and layout that best fits the group or brand of the website they wish to see come to life.</p> <!--the behind the sence work to insure your website continues to look great and work effectiently seamless user experience.-->
+			</div> <!-- close services-->
+		</div>
+		<a href="#work" class="btn"> My Work</a>
+		
+	</section>
+	<!-- ABOUT ME-->
+
+	<section class="about--me" id="about">
+		<h2 class="section__title section__title--about"> Who I Am</h2>
+		<p class="section__subtitle section__subtitle--about"> Designer and developer based out of Los Angeles</p>
+
+		<div class="about-me__body">
+			<p>A front end developer currently living and working in Los Angeles. I'm passionate about creating memorable experiences through designs that are both high performant and user friendly. I love a challange and any oppurtunity to work in collaborative spaces.</p>
+		</div>
+		<img src="redshirt.jpg">
+
+	</section>
+	<!--my work-->
+	<section class="my-work" id="work">
+		<h2 class="section__title">My Work</h2>
+		<p> Take a look at my previous projects</p>
+		<div class="portfolio">
+			<!--portfolio iterm 01-->
+			<a href="#" class="portfolio__item">
+				<img src="img1.jpg" alt="" class="portfolio__img"><!--insert project pic in src--> 
+			</a>
+			<!--portfolio iterm 02-->
+			<a href="#" class="portfolio__item">
+				<img src="img2.jpg" alt="" class="portfolio__img"><!--insert project pic in src--> 
+			</a>
+			<!--portfolio iterm 03-->
+			<a href="#" class="portfolio__item">
+				<img src="img3.jpg" alt="" class="portfolio__img"><!--insert project pic in src--> 
+			</a>
+			<!--portfolio iterm 04-->
+			<a href="#" class="portfolio__item">
+				<img src="img4.jpg" alt="" class="portfolio__img"><!--insert project pic in src--> 
+			</a>
+
+
+
+		</div>
+	</section>
+<!--footer-->
+<footer>
+	<a href="mailto:inarasnyingifa@gmail.com" class="footer-link"> Inarasnyingifa@gmail.com</a>
+	<ul class="social-list">
+		<li class="social-list__item"><a class="social-list__link">A</a></li>
+		<li class="social-list__item"><a class="social-list__link">B</a></li>
+		<li class="social-list__item"><a class="social-list__link">C</a></li>
+		<li class="social-list__item"><a class="social-list__link">D</a></li>
+	</ul>
+</footer>
+
+</body>
+</html>
