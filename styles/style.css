@@ -28,15 +28,21 @@
 }
 footer {
 	background-color: pink;
+	max-width: 100%;
+	margin: 0;
 }
 footer h3,li{
-	float:right;
-    line-height: 1.5;
-    text-align: left;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+	color: white;
+	
+	
 }
 .portfolio__img {
 	display: inline;
 }
+
+
 @media (min-width: 800px) {		/*changing style based on px size*/
 	:root {
 		--fs-h1: 4.5rem;
@@ -66,7 +72,7 @@ img{
 
 strong {font-weight: var(--fw-bold);}
 
-/*typography*/
+
 
 h1,
 h2,
@@ -121,6 +127,7 @@ h3 {font-size: var(--fs-h3);}
 }
 header {
 	background-color:pink;
+	padding:2rem;
 }
 /*Intro section*/
 
@@ -173,7 +180,20 @@ header {
 
 .my--services{
 	background-color: var(--clr-dark);
-	background-image: "back";
+	padding: 3rem;
 	color: var(--clr-light);
 
+}
+.about--me {
+	padding: 3rem;
+	display: block;
+}
+.about--me img {
+	box-shadow: var(--bs);
+	max-width: 50%;
+	max-height: 20rem;
+	display:inline-block;
+}
+.about--me div {
+	display: flex;
 }
