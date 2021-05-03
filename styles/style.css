@@ -26,7 +26,17 @@
 	--bs: 0.25em/*to the right*/ 0.25em/* moves it down*/ 0.75em /*blur*/ rgba(0,0,0,.25),
 		0.125em 0.125em 0.25em rgba(0,0,0, 0.15);
 }
-
+footer {
+	background-color: pink;
+}
+footer h3,li{
+	float:right;
+    line-height: 1.5;
+    text-align: left;
+}
+.portfolio__img {
+	display: inline;
+}
 @media (min-width: 800px) {		/*changing style based on px size*/
 	:root {
 		--fs-h1: 4.5rem;
@@ -124,6 +134,9 @@ header {
 
 .section__subtitle--intro{
 	display: inline-block;
+}
+.section-title-services {
+	text-decoration: underline;
 }
 
 @media (min-width: 600px){	/* this section changes the size /design of content when it exceeds 600px*/
