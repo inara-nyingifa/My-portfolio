@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-                                                 /*this changes how padding is calculated */
+ /*this changes how padding is calculated */
 
 												
 :root {
@@ -140,7 +140,7 @@ h3 {font-size: var(--fs-h3);}
 .section__subtitle--intro,
 .section__subtitle--about {
 	background: var(--clr-accent);
-	padding: .25em 1em;	/* makes green accent bar thicker*/
+	padding: .25em 1em;	/* makes pink accent bar thicker*/
 	font-family: var(--ff-secondary);
 	margin-bottom: 1em;
 
@@ -178,8 +178,6 @@ header {
 }
 
 
-
-
 @media (min-width: 600px){	/* this section changes the size /design of content when it exceeds 600px*/
 	.flex-container {
 		display: inline-flex;
@@ -208,8 +206,8 @@ header {
 	}
 
 	.section__subtitle--intro{
-		align-self: start; /* stops the "front end dev section" from creating an extra layer*/
-		grid-column: -1 / 1; /* stretches "front end dev section" across beneath the image*/
+		align-self: start; /* stops the "full stack dev section" from creating an extra layer*/
+		grid-column: -1 / 1; /* stretches "full stack dev section" across beneath the image*/
 		grid-row: 2; /*allows the text and image to overlap*/
 		text-align: right;
 		position: relative;
