@@ -62,6 +62,13 @@ footer {
 	max-width: 100%;
 	display: inline;
 }
+.portfolio__imgg {
+	max-width:50%;
+	display: flex:
+	width: 50px;
+}
+
+
 @media (min-width: 800px) {		/*changing style based on px size*/
 	:root {
 		--fs-h1: 4.5rem;
@@ -70,6 +77,10 @@ footer {
 		--fs-body: 1.125rem;
 }
 }
+
+
+
+
 /*general styles*/
 
 body {
@@ -79,6 +90,9 @@ body {
 	font-family: var(--fs-primary);
 	font-size: var(--fs-body);
 	line-height: 1.6;
+	width: 100%;
+	height: auto;
+	
 }
 
 section {
@@ -163,7 +177,18 @@ header {
 	text-decoration: underline;
 }
 
+
+
+
 @media (min-width: 600px){	/* this section changes the size /design of content when it exceeds 600px*/
+	.flex-container {
+		display: inline-flex;
+	}
+	.flex-container > div {
+		margin:10px;
+		padding:20px;
+	
+	}
 	.intro{
 		display: grid;
 		width: min-content; /* keeping intro photo and text centered at different sizes*/
